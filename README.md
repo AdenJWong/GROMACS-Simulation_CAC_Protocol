@@ -6,9 +6,15 @@ To run Gromacs Molecular Dynamics simulations we will first need to set up our p
 
 1. Access Cluster: <br/>
    CAC access can be requested using the following link: https://cac.queensu.ca/ <br/>
-   Instructions on usage can be found https://login.cac.queensu.ca/basic-usage.shtml
+   Instructions on basic usage can be found https://login.cac.queensu.ca/basic-usage.shtml
 
 2. Environment set up:
+
+   Using a terminal access the cluster via SSH
+   ```bash
+   ssh -X <you-username>@login.cac.queensu.ca
+   ```
+   
    Use the following command the request additional resources such as a gpu
    ```bash
    salloc --gres=gpu:1 -c 10 --mem 40g -t 8:0:0 #
