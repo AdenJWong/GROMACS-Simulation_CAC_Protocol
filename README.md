@@ -1,4 +1,4 @@
-# GROMACS-Simulation_CAC_Protocol
+# GROMACS_Simulation_CAC_Protocol
 
 ## Set up
 
